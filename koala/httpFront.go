@@ -56,7 +56,7 @@ func FrontDispatch(httpConnection *utility.HttpConnection) {
 	}
 	response := utility.NewHttpResponse()
 
-	// 生成log句柄
+	// 生成log句柄1
 	logHandle := utility.NewLogger("")
 
 	pathInfo := strings.Trim(request.PathInfo(), "/")
